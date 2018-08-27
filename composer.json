@@ -1,0 +1,17 @@
+{
+    "name": "Caldera Simple Audit Bundle",
+    "license": "MIT",
+    "type": "bundle",
+    "description": "Manage simple audits for doctrine entities",
+    "authors": [
+        {
+            "name": "Malte Hübner",
+            "email": "malte@caldera.cc"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Caldera\\SimpleAuditBundle\\": ""
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "name": "Caldera Simple Audit Bundle",
+    "name": "calderacc/simpleaudit-bundle",
     "license": "MIT",
     "type": "bundle",
     "description": "Manage simple audits for doctrine entities",

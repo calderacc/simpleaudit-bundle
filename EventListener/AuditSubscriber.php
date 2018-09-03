@@ -24,17 +24,17 @@ class AuditSubscriber implements EventSubscriber
     public function getSubscribedEvents(): array
     {
         return [
-            'postPersist',
-            'postUpdate',
+            'prePersist',
+            'preUpdate',
         ];
     }
 
-    public function postUpdate(LifecycleEventArgs $args): void
+    public function preUpdate(LifecycleEventArgs $args): void
     {
         $this->audit($args);
     }
 
-    public function postPersist(LifecycleEventArgs $args): void
+    public function prePersist(LifecycleEventArgs $args): void
     {
         $this->audit($args);
     }

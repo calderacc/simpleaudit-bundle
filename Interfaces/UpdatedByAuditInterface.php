@@ -7,5 +7,5 @@ use Symfony\Component\Security\Core\User\UserInterface;
 interface UpdatedByAuditInterface
 {
     public function getUpdatedBy(): ?UserInterface;
-    public function setUpdatedBy(UserInterface $user = null): SimpleAuditInterface;
+    public function setUpdatedBy(UserInterface $user = null);
 }

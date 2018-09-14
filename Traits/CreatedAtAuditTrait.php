@@ -10,7 +10,7 @@ trait CreatedAtAuditTrait
      */
     protected $createdAt;
 
-    public function getCreatedAt(): \DateTimeInterface
+    public function getCreatedAt(): ?\DateTimeInterface
     {
         return $this->createdAt;
     }
